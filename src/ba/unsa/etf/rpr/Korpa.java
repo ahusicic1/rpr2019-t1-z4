@@ -15,7 +15,7 @@ public class Korpa {
     }
 
     public Artikl izbaciArtiklSaKodom(String kod){
-            int i=0;
+            int i;
             for(i=0; i<vel; i++){
                 if(niz[i].kod.equals(kod) ){
                     Artikl a = new Artikl( niz[i].getNaziv(), niz[i].getCijena(), niz[i].getKod());

@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ef97ab-ea3e-464e-a00e-e0d5d3ef415d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" afterDir="false" />
+    <list default="true" id="f4ef97ab-ea3e-464e-a00e-e0d5d3ef415d" name="Default Changelist" comment="Prvi commit, prva verzija klasa">
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
@@ -64,18 +81,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603736555700</updated>
-      <workItem from="1603736556773" duration="6181000" />
+      <workItem from="1603736556773" duration="6533000" />
     </task>
+    <task id="LOCAL-00001" summary="Prvi commit, prva verzija klasa">
+      <created>1603743454465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603743454465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prvi commit, prva verzija klasa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prvi commit, prva verzija klasa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1603742423347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603742423347" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603743430608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603743430608" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603743430608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603743430608" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603743430608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603743430608" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603743430608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603743430608" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1603739367454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
