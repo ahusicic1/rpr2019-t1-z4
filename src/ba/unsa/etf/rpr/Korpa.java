@@ -5,7 +5,7 @@ public class Korpa {
     int vel=0;
 
     public boolean dodajArtikl(Artikl a){
-        if(vel==49) return false;
+        if(vel>49) return false;
         niz[vel++] = new Artikl(a.getNaziv(), a.getCijena(), a.getKod());
         return true;
     }
