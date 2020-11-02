@@ -11,7 +11,7 @@ public class Supermarket {
     public Artikl izbaciArtiklSaKodom(String kod){
         int i;
         for(i=0; i<vel; i++){
-            if(artikli[i].kod.equals(kod) ){
+            if(artikli[i].getKod().equals(kod) ){
                 Artikl a = new Artikl(artikli[i].getNaziv(), artikli[i].getCijena(), artikli[i].getKod());
                 for(int j=i; j<vel-1 ; j++) artikli[j] = artikli[j+1];
                 vel--;
@@ -22,7 +22,7 @@ public class Supermarket {
     }
 
     public boolean dodajArtikl(Artikl a){
-        if(vel==999) return false;
+        if(vel>999) return false;
         artikli[vel++] = new Artikl(a.getNaziv(), a.getCijena(), a.getKod());
         return true;
     }

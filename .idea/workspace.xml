@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ef97ab-ea3e-464e-a00e-e0d5d3ef415d" name="Default Changelist" comment="Prvi commit, prva verzija klasa">
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
+    <list default="true" id="f4ef97ab-ea3e-464e-a00e-e0d5d3ef415d" name="Default Changelist" comment="Drugi commit, popravljeni sitni errors, i=0 se ponavljalo u inicijalizaciji i petlji">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +55,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -81,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603736555700</updated>
-      <workItem from="1603736556773" duration="6533000" />
+      <workItem from="1603736556773" duration="6692000" />
+      <workItem from="1604253169692" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Prvi commit, prva verzija klasa">
       <created>1603743454465</created>
@@ -90,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603743454465</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Drugi commit, popravljeni sitni errors, i=0 se ponavljalo u inicijalizaciji i petlji">
+      <created>1603743827802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603743827802</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,35 +102,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prvi commit, prva verzija klasa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prvi commit, prva verzija klasa" />
+    <MESSAGE value="Drugi commit, popravljeni sitni errors, i=0 se ponavljalo u inicijalizaciji i petlji" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drugi commit, popravljeni sitni errors, i=0 se ponavljalo u inicijalizaciji i petlji" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1603742423347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603742423347" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603743430608">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603743895362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603743430608" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603743430608">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603743895362" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603743895362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603743430608" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603743430608">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603743895362" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603743895362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603743430608" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603743430608">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603743895362" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603743895362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603743430608" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603743895362" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1603739367454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603739367454" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603743839496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603743839496" />
   </component>
 </project>
