@@ -7,6 +7,7 @@ public class Supermarket {
     public Artikl[] getArtikli() {
         return artikli;
     }
+    public int getSize(){ return vel; }
 
     public Artikl izbaciArtiklSaKodom(String kod){
         int i;
