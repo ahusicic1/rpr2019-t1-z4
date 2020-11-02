@@ -19,13 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ef97ab-ea3e-464e-a00e-e0d5d3ef415d" name="Default Changelist" comment="Drugi commit, popravljeni sitni errors, i=0 se ponavljalo u inicijalizaciji i petlji">
+    <list default="true" id="f4ef97ab-ea3e-464e-a00e-e0d5d3ef415d" name="Default Changelist" comment="vraca se false ako je vel&gt;49 a ne ==49">
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Artikl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Artikl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,14 +52,47 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rpr" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in rpr2019-t1-z4">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in rpr2019-t1-z4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArtiklTest.testCijenaArtikla" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr2019-t1-z4" />
       <extension name="coverage">
         <pattern>
@@ -51,13 +100,69 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.ArtiklTest" />
+      <option name="METHOD_NAME" value="testCijenaArtikla" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KorpaTest.dajUkupnuCijenuArtikala" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="METHOD_NAME" value="dajUkupnuCijenuArtikala" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KorpaTest.dodajArtiklPrekoracenje" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="METHOD_NAME" value="dodajArtiklPrekoracenje" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KorpaTest.izbaciArtiklSaKodom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="METHOD_NAME" value="izbaciArtiklSaKodom" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in rpr2019-t1-z4" />
+        <item itemvalue="JUnit.KorpaTest.dajUkupnuCijenuArtikala" />
+        <item itemvalue="JUnit.KorpaTest.izbaciArtiklSaKodom" />
+        <item itemvalue="JUnit.KorpaTest.dodajArtiklPrekoracenje" />
+        <item itemvalue="JUnit.ArtiklTest.testCijenaArtikla" />
       </list>
     </recent_temporary>
   </component>
@@ -71,6 +176,8 @@
       <updated>1603736555700</updated>
       <workItem from="1603736556773" duration="6692000" />
       <workItem from="1604253169692" duration="11000" />
+      <workItem from="1604331128785" duration="992000" />
+      <workItem from="1604337977056" duration="1032000" />
     </task>
     <task id="LOCAL-00001" summary="Prvi commit, prva verzija klasa">
       <created>1603743454465</created>
@@ -86,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603743827802</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="atrubuti postavljeni na private">
+      <created>1604331343202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604331343202</updated>
+    </task>
+    <task id="LOCAL-00004" summary="vraca se false ako je vel&gt;49 a ne ==49">
+      <created>1604331406219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604331406219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,36 +228,60 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prvi commit, prva verzija klasa" />
     <MESSAGE value="Drugi commit, popravljeni sitni errors, i=0 se ponavljalo u inicijalizaciji i petlji" />
-    <option name="LAST_COMMIT_MESSAGE" value="Drugi commit, popravljeni sitni errors, i=0 se ponavljalo u inicijalizaciji i petlji" />
+    <MESSAGE value="atrubuti postavljeni na private" />
+    <MESSAGE value="vraca se false ako je vel&gt;49 a ne ==49" />
+    <option name="LAST_COMMIT_MESSAGE" value="vraca se false ako je vel&gt;49 a ne ==49" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1603742423347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603742423347" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603743895362">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604339153827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603743895362" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603743895362">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604339153827" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604339153826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603743895362" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603743895362">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604339153826" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604339153826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603743895362" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603743895362">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604339153826" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604339153827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603743895362" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604339153827" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1603739367454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603739367454" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603743839496">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604331415018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603743839496" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604331415018" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604338065618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1604338065618" />
+    <state x="540" y="195" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604338341069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="195" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1604338341069" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java</url>
+          <line>26</line>
+          <properties class="ba.unsa.etf.rpr.KorpaTest" method="izbaciArtiklSaKodom">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
